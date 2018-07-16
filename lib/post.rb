@@ -12,7 +12,7 @@ class Post
   end
 
   def author_name=(author)
-    if (self.author_name.nil?)
+    if (self.post.nil?)
       nil
     elsif
       author_name = @author
