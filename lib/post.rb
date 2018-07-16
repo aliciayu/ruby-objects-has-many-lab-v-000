@@ -15,7 +15,7 @@ class Post
     if (self.author.nil?)
       post = nil
     elsif
-      @author = author
+      author_name = author
     end
   end
 
