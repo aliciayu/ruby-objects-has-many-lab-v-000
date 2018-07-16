@@ -13,9 +13,9 @@ class Post
 
   def author_name=(author)
     if (self.author_name.nil?)
-      post = nil
+      nil
     elsif
-      author_name = author
+      author_name = @author
     end
   end
 
