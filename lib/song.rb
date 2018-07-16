@@ -11,7 +11,7 @@ class Song
     if (self.song.nil?)
       nil
     else
-      artist_name = @name
+      artist_name = @artist
     end
   end
 
