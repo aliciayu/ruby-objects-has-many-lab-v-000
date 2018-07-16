@@ -13,7 +13,7 @@ class Post
 
   def author_name=(name)
     if (self.author.nil?)
-      self.post = nil
+      post = nil
     elsif
       @author = author
     end
