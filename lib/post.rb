@@ -11,7 +11,7 @@ class Post
     title = name
   end
 
-  def author_name=(name)
+  def author_name=(author)
     if (self.author.nil?)
       post = nil
     elsif
